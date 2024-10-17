@@ -1,0 +1,179 @@
+/* PROPS -- PricingCard */
+
+.upper-plan > h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.upper-plan > p {
+  font-size: 1.5rem;
+  color: var(--font-color);
+  margin-bottom: 1.5rem;
+}
+
+.terms-option {
+  display: inline-flex;
+  align-items: center;
+}
+
+.terms-option > h2 {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.terms-option > span {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.terms-option > .terms-option-discount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  background-color: #ff9441;
+}
+
+/* PRICING CARD LOWER */
+
+.pricing-card-lower {
+  display: flex;
+  /* border: 1px solid white; */
+  margin-top: 1.5rem;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  color: #ff9441;
+}
+
+.pricing-card-lower > span {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.75rem;
+}
+
+/* ---------- BUTTONS */
+
+.main-pricing-sub-container {
+  margin-top: 10rem;
+}
+
+.pricing-terms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.pricing-terms-sub-container {
+  /* border: 2px solid yellow; */
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  background-color: rgba(169, 169, 169, 0.25);
+}
+
+.monthly.term,
+.yearly.term {
+  background-color: black;
+  color: white;
+}
+
+.term-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgba(169, 169, 169, 1);
+  margin: 0.2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* -------- 3 CONTAINERS */
+
+.upper-pricing {
+  background-color: rgba(254, 180, 123, 0.1);
+  padding: 2.5rem 2.5rem 1rem 2.5rem;
+}
+
+.pricing-container {
+  display: flex;
+  max-width: 110rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.pricing-terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  border: 1px solid;
+  border-color: rgba(105, 105, 105, 0.7);
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+
+.mid-pricing {
+  border: 0.5rem solid #ff9441;
+}
+
+.main-pricing-sub {
+  padding: 2.5rem;
+}
+
+.pricing-btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-btn {
+  padding: 1rem 20%;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 1rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+.mid-btn {
+  background-color: #ff9441;
+  font-weight: bold;
+  color: white;
+}
+
+/* CREDIT CARD */
+
+.credit-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.credit-icon {
+  width: 4rem;
+  height: 4rem;
+  color: var(--font-color);
+}
+
+.credit-card > p {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: var(--font-color);
+}
+
+/* -------- MEDIA QUERIES --------*/
+
+@media (max-width: 1174px) {
+  .pricing-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

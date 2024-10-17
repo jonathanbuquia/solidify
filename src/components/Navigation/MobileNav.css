@@ -1,0 +1,108 @@
+.menu-section {
+  position: fixed;
+  z-index: 100;
+  top: 5rem;
+  right: 0;
+  padding: 2rem 1rem;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  /* border: 1px solid white; */
+}
+
+.menu-buttons {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  /* margin: 0 1rem; */
+}
+
+.menu-btn-signIn {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu-btn-signIn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 1.5rem;
+  transition: 0.75s;
+}
+
+.menu-btn-signUp {
+  font-size: 1.5rem;
+}
+
+/* ---------------- MENU */
+
+.menu-items {
+  padding-top: 3rem;
+}
+
+.menu-main-title {
+  display: flex;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.3);
+  padding: 1.7rem 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.7rem;
+}
+
+.menu-main-title:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.menu-title {
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.menu-features-tab,
+.menu-resource-tab {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.menu-resource-tab:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu-features-tab:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu-title-description {
+  padding-top: 0.5rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-features-icon {
+  margin-right: 0.5rem;
+}
+
+/* ----------- */
+
+.m-arrow-up {
+  transform: rotate(180deg);
+  /* transition: 0.5s; */
+}
+
+.m-arrow-down {
+  transform: rotate(360deg);
+  /* transition: 0.5s; */
+}

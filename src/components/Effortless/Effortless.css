@@ -1,0 +1,19 @@
+.effort-sections {
+  margin-top: 10rem;
+}
+
+.effort-cards {
+  display: flex;
+  max-width: 110rem;
+  margin: 0 auto;
+  gap: 3rem;
+  flex: 1;
+}
+
+@media (max-width: 800px) {
+  .effort-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+  }
+}
